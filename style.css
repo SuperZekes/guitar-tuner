@@ -1,0 +1,73 @@
+/* Reset some default browser styles */
+body, h1, p, span, button, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* General body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f06, #4a90e2);
+    color: white;
+    text-align: center;
+}
+
+/* Headings and paragraphs */
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+/* Frequency container */
+p span#frequency {
+    font-weight: bold;
+    color: #ff0;
+}
+
+/* Horizontal rules */
+hr {
+    width: 80%;
+    border: none;
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+    margin: 2em 0;
+}
+
+/* Button styling */
+button {
+    padding: 0.7em 1.5em;
+    font-size: 1.2em;
+    color: #4a90e2;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+button:hover {
+    background: #4a90e2;
+    color: white;
+}
+
+/* Link styling */
+a {
+    font-size: 1em;
+    color: #ff0;
+    text-decoration: none;
+    margin-top: 1em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
