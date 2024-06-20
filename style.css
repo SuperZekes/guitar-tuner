@@ -1,5 +1,5 @@
 /* Reset some default browser styles */
-body, h1, p, span, button, a {
+body, h1, p, span, button, a, footer {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,6 +16,7 @@ body {
     background: linear-gradient(135deg, #f06, #4a90e2);
     color: white;
     text-align: center;
+    position: relative;
 }
 
 /* Headings and paragraphs */
@@ -70,4 +71,13 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.6);
 }
